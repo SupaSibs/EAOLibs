@@ -1,0 +1,19 @@
+{
+  "name": "eaolib",
+  "version": "0.1.1",
+  "description": "jquery-like dom + kinda flutter-like components, (probably) less than 5 kb",
+  "main": "eao.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SupaSibs/EAOLibs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SupaSibs/EAOLibs/issues"
+  },
+  "homepage": "https://github.com/SupaSibs/EAOLibs#readme"
+}
