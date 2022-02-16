@@ -1,4 +1,5 @@
-namespace markup {
+
+export {
 class Component {
 
 }
