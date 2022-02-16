@@ -1,0 +1,5 @@
+namespace markup {
+class Component {
+
+}
+}
