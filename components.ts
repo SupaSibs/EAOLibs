@@ -1,17 +1,7 @@
-
-class Component {
-    props: any;
-constructor(props: object) {
-this.props = props;
+function useState(val) {
+return [val, v => val = v]
 }
 
-setState(fn) {
-fn();
-}
-renderComp(fn: function) {
+function useEffect(comp, fun) {
 
 }
-}
-
-
-export {Component}
