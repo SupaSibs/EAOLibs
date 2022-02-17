@@ -23,5 +23,4 @@ markup: string,
 }
 
 export function render(obj: object) {
-document.querySelector(obj.dom).innerHTML = obj.markup;
-}
+document.querySelector(obj.dom).innerHTML = obj.markup
