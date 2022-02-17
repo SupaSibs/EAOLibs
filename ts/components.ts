@@ -9,7 +9,7 @@ unmount?: function,
 */
 
 /**
- * Markup examples:
+ * Markup example:
  * ```javascript
  *markup: `
 <h1>Hi</h1>
