@@ -1,12 +1,3 @@
-export function e(type: string, props: object) {
-	let el: HTMLElement = document.createElement(type);
-	let keys: Array<string> = Object.keys(props)
-for (let i = 0; i < keys.length; i++) {
-el[props[keys[i]]] = props[keys[i]];
-}
-
-return el;
-}
 
 export interface Component {
 state?: object,
@@ -27,15 +18,10 @@ innerhtml: "Hello World!"
 
  * ```
  */
-dom: string
-markup: object,
+dom?: string,
+markup: string,
 }
 
-export function render(obj: any) {
-	let keys = Object.keys(obj.markup)
-for(let i = 0; i < keys.length; i++) {
-document.querySelector(obj.dom).appendChild(obj.markup[keys[i]])
+export function render(obj: object) {
+document.querySelector(obj.dom).innerHTML = obj.markup;
 }
-}
-
-
