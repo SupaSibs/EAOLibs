@@ -11,10 +11,9 @@ unmount?: function,
 /**
  * Markup examples:
  * ```javascript
- *markup: {
-Hello: e(p, {
-innerhtml: "Hello World!"
- }
+ *markup: `
+<h1>Hi</h1>
+ `
 
  * ```
  */
@@ -23,4 +22,5 @@ markup: string,
 }
 
 export function render(obj: object) {
-document.querySelector(obj.dom).innerHTML = obj.markup
+document.querySelector(obj.dom).innerHTML = obj.markup;
+}
